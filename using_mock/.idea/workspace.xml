@@ -23,8 +23,8 @@
       <file leaf-file-name="test_hello.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="364">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -177,15 +177,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.30 at 22h 28m 50s.xml">
-      <configuration name="Unittests in test_hello.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 06h 07m 53s.xml">
-      <configuration name="Unittests in test_hello.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 10h 56m 11s.xml">
-      <configuration name="Unittests in test_hello.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 10h 56m 23s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
@@ -205,6 +196,15 @@
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 05m 17s.xml">
+      <configuration name="Unittests in test_hello.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 09m 24s.xml">
+      <configuration name="Unittests in test_hello.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 09m 49s.xml">
+      <configuration name="Unittests in test_hello.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 11m 04s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -262,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="364">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

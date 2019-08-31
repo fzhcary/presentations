@@ -1,6 +1,7 @@
 from unittest import TestCase
 from unittest.mock import Mock, patch
 from hello import Hello
+import random
 
 
 # refer to https://realpython.com/python-mock-library
@@ -60,9 +61,13 @@ class TestHello(TestCase):
     def test_mock_randint(self, mock_result):
         # note it is a common mistake to patch the local random.randint instead of the one in hello module !!!
         mock_result.return_value = 777
+        # we didn't patch that one
         self.assertNotEqual(Hello.guess_a_number(), 777)
+        # we patched this local one
+        self.assertEqual(random.randint(0, 10), 777)
 
     @patch("hello.randint")
     def test_mock_randint2(self, mock_result):
+        # this is the right way to patch
         mock_result.return_value = 777
         self.assertEqual(Hello.guess_a_number(), 777)
