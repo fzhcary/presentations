@@ -50,3 +50,19 @@ class TestHello(TestCase):
         with patch('hello.Hello.greet') as mock_greet:
             mock_greet.return_value = "mocking"
             self.assertEqual(Hello.greet("John"), "mocking")
+
+    @patch("hello.Hello.guess_a_number")
+    def test_guess_a_number(self, mock_result):
+        mock_result.return_value = 777
+        self.assertEqual(Hello.guess_a_number(), 777)
+
+    @patch("random.randint")
+    def test_mock_randint(self, mock_result):
+        # note it is a common mistake to patch the local random.randint instead of the one in hello module !!!
+        mock_result.return_value = 777
+        self.assertNotEqual(Hello.guess_a_number(), 777)
+
+    @patch("hello.randint")
+    def test_mock_randint2(self, mock_result):
+        mock_result.return_value = 777
+        self.assertEqual(Hello.guess_a_number(), 777)
