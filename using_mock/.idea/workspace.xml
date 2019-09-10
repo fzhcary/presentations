@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b164ee5-84ca-4675-a767-c8a196849e1f" name="Default" comment="" />
+    <list default="true" id="3b164ee5-84ca-4675-a767-c8a196849e1f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_hello.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hello.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hello.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_hello.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_hello.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="857">
-              <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="374">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -49,6 +52,9 @@
       <replace>deprecated_method</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -60,17 +66,17 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="27" />
     <option name="width" value="1440" />
     <option name="height" value="804" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,6 +88,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,46 +184,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 10h 56m 23s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 22m 30s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 10h 57m 53s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 22m 42s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 10h 59m 42s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 22m 52s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 00m 30s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 23m 09s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 02m 01s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 23m 34s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 03m 04s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 27m 08s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 05m 17s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 31m 23s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 09m 24s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 32m 28s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 09m 49s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 34m 41s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_hello_py - 2019.08.31 at 11h 11m 04s.xml">
+    <history-entry file="Unittests_in_test_hello_py - 2019.09.10 at 10h 39m 51s.xml">
       <configuration name="Unittests in test_hello.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1440" height="804" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17916666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18181819" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29863015" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31047383" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -237,6 +243,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
@@ -253,20 +276,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_example.py" />
-    <entry file="file://$PROJECT_DIR$/test_hello.py">
+    <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="857">
-          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello.py">
+    <entry file="file://$PROJECT_DIR$/test_hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="374">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
