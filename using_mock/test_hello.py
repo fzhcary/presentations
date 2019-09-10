@@ -5,6 +5,8 @@ import random
 
 
 # refer to https://realpython.com/python-mock-library
+# and https://www.toptal.com/python/an-introduction-to-mocking-in-python
+
 class TestHello(TestCase):
     def test_greet_with_mock(self):
         # test mock function return value
