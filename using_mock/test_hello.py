@@ -25,16 +25,18 @@ class TestHello(TestCase):
 
     def test_mock_without_spec(self):
         # the deprecated_method is Hello class is removed but the unit test still passes without spec
-        mock = Mock()
-        Hello.deprecated_method = Mock
-        mock.deprecated_method()
+        Hello = Mock()
+        Hello.deprecated_method()
         self.assertTrue(Hello.deprecated_method.called)
 
     def test_mock_with_spec(self):
         """ spec ensures mock to track class method """
-        mock = Mock(spec=Hello)
+        obj = Hello()
+        mock = Mock(spec=obj)
         with self.assertRaises(AttributeError):
-            mock.deprecated_method()
+            Hello.deprecated_method()
+
+        self.assertEqual(Hello.greet("John"), "hey, I am mock.")
 
     @patch("hello.Hello.greet")  # func must be on path. "Hello.great" doesn't work since import has no effect.
     def test_greet_with_patch(self, mock_result):
